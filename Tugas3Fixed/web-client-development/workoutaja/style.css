@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Font families */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+  min-height: 100vh;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+/* Container */
+.page {
+  width: 1040px;
+  margin: 0 auto;
+  padding-top: 64px;
+}
+
+/* Navbar */
+nav {
+  font-family: 'Mulish', sans-serif;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 40px;
+}
+
+/* Logo style */
+.logo {
+  font-weight: 700;
+  color: #89C5CC;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+/* Nav list */
+nav ul {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+}
+
+/* Nav links */
+nav ul li a {
+  text-decoration: none;
+  color: #8E8E8E;
+  font-weight: 400;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  font-weight: 700;
+  color: #000;
+}
+
+/* Main layout */
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 88px 0;
+  position: relative;
+}
+
+/* Text section */
+.text h1 {
+  font-family: 'Mulish', sans-serif;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000;
+}
+
+.text h1 span {
+  color: #89C5CC;
+  font-weight: 700;
+}
+
+.text p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #7D7987;
+  margin: 40px 0;
+}
+
+.text button {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: #69B99D;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.text button:hover {
+  background: #4CAF89;
+}
+
+/* Hero image section */
+.hero {
+  max-width: 515px;
+  height: auto;
+}
+
+/* Footer */
+footer {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 14px;
+  color: #7D7987;
+  margin-bottom: 24px;
+  width: 100%;
+  position: relative;
+}
+
+footer a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* Decorative balls element */
+#balls {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 98.39px;
+  height: 88px;
+  opacity: 0.3;
+  background: linear-gradient(338.5deg, #89C5CC -869.19%, #89C5CC 574.86%);
+}

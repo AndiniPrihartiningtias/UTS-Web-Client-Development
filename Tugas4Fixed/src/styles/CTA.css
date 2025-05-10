@@ -1,0 +1,74 @@
+.floating-cta {
+    position: fixed;
+  bottom: 30%;
+  right: 1rem;
+  background-color: black;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 999px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: bold;
+  z-index: 1001;
+  text-decoration: none;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+  }
+  
+  .floating-cta:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .wave {
+    margin-right: 0.5rem;
+    display: inline-block;
+    animation: wave 2s infinite;
+    transform-origin: 70% 70%;
+  }
+    @keyframes wave {
+        0% { transform: rotate(0deg); }
+        10% { transform: rotate(14deg); }
+        20% { transform: rotate(-8deg); }
+        30% { transform: rotate(14deg); }
+        40% { transform: rotate(-4deg); }
+        50% { transform: rotate(10deg); }
+        60% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+    }
+
+    @media (max-width: 768px) {
+        .cta-text {
+          display: none;
+        }
+      
+        .cta-icon {
+          display: block;
+        }
+      
+        .cta.open {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          position: fixed;
+          top: 0;
+          right: 0;
+          height: 100vh;
+          width: 100%;
+          background-color: black;
+          z-index: 1001;
+        }
+      
+        .cta.open li {
+          margin: 1.5rem 0;
+        }
+      
+        .cta.open li a {
+          font-size: 1.8rem;
+          color: white;
+        }
+      }
+      

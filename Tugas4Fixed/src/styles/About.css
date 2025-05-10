@@ -1,0 +1,34 @@
+.about-section {
+  background: linear-gradient(135deg, #ffecd2, #fcb69f);
+  padding: 100px 30px;
+  text-align: center;
+  border-radius: 0px;
+  margin: 0;
+  box-shadow: none;
+  font-family: 'Comic Sans MS', 'Poppins', cursive;
+  color: #333;
+  width: 100%;
+}
+
+.about-section h2 {
+  font-size: 2.8rem;
+  margin-bottom: 30px;
+  color: #2c2c2c;
+  font-weight: 700;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  padding: 12px 20px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.6);
+  display: inline-block;
+  animation: floatIn 0.8s ease both;
+}

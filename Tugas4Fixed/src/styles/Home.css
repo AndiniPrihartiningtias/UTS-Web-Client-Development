@@ -1,0 +1,37 @@
+.Home-wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b6d8fb;
+    overflow: hidden;
+  }
+  
+  .Home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    gap: 1.5rem;
+  }
+  
+  .Home-content h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .highlight {
+    color: #007bff;
+  }
+  
+  .Home-image img {
+    width: 250px;
+    height: auto;
+    border-radius: 100%;
+  }
+  
